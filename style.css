@@ -1,0 +1,123 @@
+body {  
+	background-color: #E8B4E4;
+	color: black;
+	font-family: 'Indie Flower', cursive;
+	line-height: 2;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+h1 {
+	font-family: 'Mynerve', cursive;
+	color: #E8B4E4;
+	font-size: 45px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: auto;
+    margin-top: auto;
+}
+h2,h3,h4,h5,h6 {
+	color: #E8B4E4;
+	font-family: 'Mynerve', cursive;
+	font-size: 28px;
+	line-height: 2px;
+	font-weight: bold; 
+	margin-top: -30px;
+    margin-bottom: 34px;
+}
+.container {
+	width: 800px;
+	margin: 100px auto;
+}
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container { 
+		width: 300px; 
+	}
+}
+.card-white {
+	background-color: white;
+	padding: 70px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.2);
+	border-radius: 5px;
+	margin: 18px;
+	text-align: center;
+}
+.subcard-white {
+	background-color: white;
+	padding: 70px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.2);
+	border-radius: 5px;
+	margin: 18px;
+	height: 80px;
+}
+img {
+	width: 188px;
+	height: 188px;
+}
+.img-rounded {
+	border-radius: 50%;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.img-bordered {
+	margin: 20px;
+	border: 3px solid #2F7AD6;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
+}
+.btn-blue {
+	background-color: #2F7AD6;
+	padding: 15px 10px;
+	border-radius: 5px;
+	color: white;
+}
+.btn-blue:hover {
+	background-color: #E8B4E4;
+	color: white;
+}
+.icon-bold {
+	width: 25px;
+	height: 25px;
+}
+.icon-social {
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	padding-top: 25px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 30px;
+	color: black;
+}
+.list-inline i:hover {
+	color: white ;
+}
+#introduction p { 
+	margin-bottom: 35px;
+	margin-top: 0px;
+}
+a {
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+#socials {
+	margin-top: -12px;
+}
